@@ -29,7 +29,7 @@ principais características: é a sua simplicidade, a sua rapidez e a sua efici�
 
  - ⚠️Só que tem um problema, porque o Flask ele não é uma biblioteca embutida do Python, é uma biblioteca que temos que baixar, temos que fazer o download disso, então vamos fazer o download.  
 vamos usar o instalador pip:
- - pip install flask==2.0.2
+   - pip install flask==2.0.2
 
 
 - para fazer rodar essa aplicação temos que terminar isso daqui com **app.run()**
