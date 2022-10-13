@@ -2,10 +2,25 @@
 Criando uma aplicação web Flask - Alura
 
 ## Versões utilizadas:
-Python: 3.9.9  
+Python: ~~3.9.9~~ 3.9.2   
 Flask: 2.0.2  
 PyCharm: 2021.3.2  
 Bootstrap: 5.1.x  
+
+### pyenv
+
+  - [tutorial install pyenv](https://gist.github.com/luzfcb/ef29561ff81e81e348ab7d6824e14404)
+
+```bash
+  cd alura_webapp_flask/
+  pyenv install --list
+  pyenv versions  
+  pyenv install 3.9.2
+  pyenv virtualenv 3.9.2 alura_webapp_flask  
+  pyenv virtualenvs
+  pyenv activate alura_webapp_flask
+  pyenv local alura_webapp_flask
+```
 
 ## apresentando
 o Flask é um framework que foi lançado em 2010  
