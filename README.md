@@ -22,6 +22,17 @@ Bootstrap: 5.1.x
   pyenv local alura_webapp_flask
 ```
 
+#### Libs
+```bash
+  pip install  flask==2.0.2
+```
+
+
+##### Requeriments
+flask==2.0.2  
+
+
+
 ## apresentando
 o Flask é um framework que foi lançado em 2010  
 principais características: é a sua simplicidade, a sua rapidez e a sua eficiência.  
