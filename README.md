@@ -24,16 +24,22 @@ Bootstrap: 5.1.x
 
 #### Libs
 ```bash
-  pip install  flask==2.0.2
+  pip install flask~=2.0.0
 ```
-
+obs.:
+ - ~= : versão compatível - pode ser qualquer versão mais atual que não quebre compatibilidade com a definida.
+ - == : versão exata - define uma versão fixa que deve ser instalada (como vimos no vídeo).
+ - != : exclusão de versão - define a versão que não é para instalar, pegando assim a mais atual sem ser a definida.
+ - <= , >= : versão maior ou igual e menor ou igual - ajuda a restringir versões, inclusive a definida.
+ - < , > : versão maior ou menor - ajuda a restringir versões, excluindo a definida.
 
 ##### Requeriments
 flask==2.0.2  
 
 
 
-## apresentando
+## Apresentação da proposta
+
 o Flask é um framework que foi lançado em 2010  
 principais características: é a sua simplicidade, a sua rapidez e a sua eficiência.  
 
