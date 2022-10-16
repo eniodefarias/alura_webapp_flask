@@ -4,8 +4,8 @@ Criando uma aplicação web Flask - Alura
 ## Versões utilizadas:
 Python: ~~3.9.9~~ 3.9.2   
 Flask: 2.0.2  
-PyCharm: 2021.3.2  
-Bootstrap: 5.1.x  
+PyCharm: ~~2021.3.2~~ 2022.2.3  
+Bootstrap: ~~5.1.x~~ 5.2.2  
 
 ### pyenv
 
@@ -26,16 +26,19 @@ Bootstrap: 5.1.x
 ```bash
   pip install flask~=2.0.0
 ```
-obs.:
- - ~= : versão compatível - pode ser qualquer versão mais atual que não quebre compatibilidade com a definida.
- - == : versão exata - define uma versão fixa que deve ser instalada (como vimos no vídeo).
- - != : exclusão de versão - define a versão que não é para instalar, pegando assim a mais atual sem ser a definida.
- - <= , >= : versão maior ou igual e menor ou igual - ajuda a restringir versões, inclusive a definida.
- - < , > : versão maior ou menor - ajuda a restringir versões, excluindo a definida.
+
+
+ - obs.:
+   - ~= : versão compatível - pode ser qualquer versão mais atual que não quebre compatibilidade com a definida.
+   - == : versão exata - define uma versão fixa que deve ser instalada (como vimos no vídeo).
+   - != : exclusão de versão - define a versão que não é para instalar, pegando assim a mais atual sem ser a definida.
+   - <= , >= : versão maior ou igual e menor ou igual - ajuda a restringir versões, inclusive a definida.
+   - < , > : versão maior ou menor - ajuda a restringir versões, excluindo a definida.
 
 ##### Requeriments
+```bash
 flask==2.0.2  
-
+```
 
 
 ## Apresentação da proposta
@@ -68,5 +71,20 @@ vamos usar o instalador pip:
   - vamos fazer isso a partir do `@app.routee vamos criar uma nova rota, e daí precisamos nomear essa rota, então eu vou colocar’/inicio’`
 
 
-xx
+### Rotas
 
+ - **/**
+   - lista os jogos  
+   
+      
+ - **/novo**
+   - formulario para adicionar novos dados  
+
+ 
+ - **/criar**
+   - recebe o post com os dados do **/novo** e depois redireciona para **/** novamente
+
+
+### Estilização
+ - utilizado [bootstrap](https://getbootstrap.com/) v5.2.2
+ - 
